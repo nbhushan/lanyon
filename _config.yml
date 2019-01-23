@@ -1,21 +1,24 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-
+permalink:   pretty
+gems: [jekyll-paginate]
+paginate_path: "page:num"
 
 # Setup
-title:               nitin bhushan,
-tagline:             'MSc.'
-description:         'musings on electrical engineering, psychology, machine learning (and statistics) and sustainable energy technology amongst other things..'
-url:                 http://nbhushan.github.io
-baseurl:             ''
-paginate:            5
+title:       nitin bhushan
+tagline:     ''
+description: 'musings on electrical engineering, psychological science,
+  machine learning (and statistics) and sustainable energy technology
+  amongst other things.'
+url:         "https://nbhushan.github.io"
+baseurl:     ''
+paginate:    5
 
 # About/contact
 author:
-  name:              Nitin Bhushan
-  email:             bhushan.nitin@posteo.net
+  name:      Nitin Bhushan
+  email:     bhushan.nitin@posteo.net
 
 # Custom vars
-version:             1.0.0
+version:     1.0.0

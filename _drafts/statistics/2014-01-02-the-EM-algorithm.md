@@ -1,7 +1,7 @@
 ---
 layout: post
-title: the EM algorithm
-categories: [statistics, ML]
+title: The EM algorithm
+categories: statistics
 ---
 
 I love the EM algorithm.

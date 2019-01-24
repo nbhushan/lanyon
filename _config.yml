@@ -6,7 +6,7 @@ plugins: [jekyll-paginate]
 paginate_path: "page:num"
 
 # Setup
-title:       nitin bhushan
+title:       Nitin Bhushan
 tagline:     ''
 description: 'musings on electrical engineering, psychological science,
   machine learning (and statistics) and sustainable energy technology

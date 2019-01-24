@@ -1,6 +1,6 @@
 ---
 layout: post
-title: causal discovery
+title: Causal discovery
 categories: causality
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: causal identification
+title: Causal identification
 categories: causality
 ---
 

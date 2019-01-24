@@ -1,7 +1,7 @@
 ---
 layout: post
-title: hidden markov models
-categories: [statistics, ML]
+title: Hidden markov models
+categories: statistics
 ---
 
 

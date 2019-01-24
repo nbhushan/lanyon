@@ -8,13 +8,18 @@ paginate_path: "page:num"
 # Setup
 title:       Nitin Bhushan
 tagline:     ''
-description: 'musings on electrical engineering, psychological science,
-  machine learning (and statistics) and sustainable energy technology
+description: 'meditations on electrical engineering, psychological science,
+  machine learning and statistics, and sustainable energy technology
   amongst other things.'
 url:         "https://nbhushan.github.io"
 baseurl:     ''
 paginate:    5
 markdown:    kramdown
+
+
+github_username:      nbhushan
+linkedin_username:    bhushannitin
+
 
 # About/contact
 author:

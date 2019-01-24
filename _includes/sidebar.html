@@ -6,7 +6,23 @@
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
+    {% if site.github_username %}
+    <li>
+      <a href="https://github.com/{{ site.github_username }}">
+        <i class="fa fa-github" aria-hidden="true"></i> GitHub
+      </a>
+    </li>
+  {% endif %}
+  {% if site.linkedin_username %}
+    <li>
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+        <i class="fa fa-linkedin"></i> LinkedIn
+      </a>
+    </li>
+  {% endif %}
   </div>
+
+
 
   <nav class="sidebar-nav">
   <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
@@ -26,10 +42,10 @@
     {% endfor %}
 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/docs/CV/nbhushanCV.pdf" target=" _blank">CV</a>
-    <a class="sidebar-nav-item" href="{{ https://github.com/nbhushan }}" target=" _blank">Code</a>
   </nav>
 
+
   <div class="sidebar-item">
-      <a href="http://lanyon.getpoole.com" target="_blank"> Built using Jekyll</a>
+     &copy; Nitin Bhushan 2019.<br> Created using free and open-source software. Based on a theme by @mdo. Proudly published with Jekyll.
   </div>
 </div>

@@ -7,18 +7,20 @@
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
     {% if site.github_username %}
-    <li>
-      <a href="https://github.com/{{ site.github_username }}">
+      <a href="https://github.com/{{ site.github_username }}" target="_blank">
         <i class="fa fa-github" aria-hidden="true"></i> GitHub
-      </a>
-    </li>
   {% endif %}
+  <br>
   {% if site.linkedin_username %}
-    <li>
-      <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
         <i class="fa fa-linkedin"></i> LinkedIn
       </a>
-    </li>
+  {% endif %}
+  <br>
+  {% if site.email_id %}
+  <a href="mailto:bhushan.nitin@posteo.net" target="_top">
+        <i class="fa fa-envelope" aria-hidden="true"></i> Email
+      </a>
   {% endif %}
   </div>
 
@@ -46,6 +48,6 @@
 
 
   <div class="sidebar-item">
-     &copy; Nitin Bhushan 2019.<br> Created using free and open-source software. Based on a theme by @mdo. Proudly published with Jekyll.
+     &copy; Nitin Bhushan 2019.<br> Created using free and open-source software. Based on a theme by <a href="https://github.com/mdo">@mdo</a>. Proudly published with Jekyll.
   </div>
 </div>

@@ -4,7 +4,7 @@ title: The EM algorithm
 categories: statistics
 ---
 
-I love the EM algorithm.
+The EM algorithm is beautiful.
 
 Preliminaries
 -------------

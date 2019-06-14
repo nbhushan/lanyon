@@ -17,7 +17,7 @@ The key questions which I focus on are:
 ### Gain insight into factors which predict membership in Buurkracht
 In order to understand why do people join Buurkracht, I applied a search method, the *PC algorithm* on data from Buurkracht members and non-members to gain insight into the factors that drive membership in such initiatives.
 
-![Gaussian graphical model  ](/assets/buurPC.png){: .center-image }
+![Gaussian graphical model  ]({{ site.github.repo }}/assets/buurPC.png){: .center-image }
 
 I found that factors related to the social context forms a distinct causal path leading to membership in the initiative. Furthermore, environmental neighbourhood identity is a key variable which links variables from distinct categories such as personal factors, social factors, and membership. In addition, it seems that initiative involvement intentions directly leads to membership, while communal sustainable energy intentions leads to membership via initiative involvement intentions.
 
@@ -28,15 +28,15 @@ Reducing peak demand is a key aspect of climate change mitigation in the residen
 
 Furthermore, every Buurkract member is provided with a smart meter. These meters measure electricity and gas consumption every 15min. The typical data from a smart meter can be visualised as a time-series.
 
-![Gaussian graphical model  ](/assets/spaghetti_timeSeries.png){: .center-image }
+![Gaussian graphical model  ]({{ site.github.repo }}/assets/spaghetti_timeSeries.png){: .center-image }
 
 We can clearly see that energy consumption follows a seasonal pattern. There are time-of-day effects and weather effects which drive the dynamics of energy consumption. A typical daily consumption profile of a buurkracht neighbourhood in Groningen is shown below.
 
-![Gaussian graphical model  ](/assets/M1dailySmooth.jpg){: .center-image }
+![Gaussian graphical model  ]({{ site.github.repo }}/assets/M1dailySmooth.jpg){: .center-image }
 
 Recall that one of the key goals of Buurkract is to encourage adoption of renwable energy sources such as PV-panels (zonnepanelen). In the above figure, the blue line in the above figure represents the daily consumption profiles buurkracht members who invested in a PV panel; and the red line represents the daily profile of buurkract members who chose not to invest in a PV panel. We can now investigate difference in these two classes of Buurkract members.
 
-![Gaussian graphical model  ](/assets/M1dailydiff.jpg){: .center-image }
+![Gaussian graphical model  ]({{ site.github.repo }}/assets/M1dailydiff.jpg){: .center-image }
 
 As the figure indicates, one would expect differences in daily energy consumption when the sun is shining (indicated by the portion highlighted in red). However, An interesting question is therefore: does investing in a PV-panel also affect how households consume energy during peak demand hours?
 

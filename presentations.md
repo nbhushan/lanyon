@@ -4,7 +4,7 @@ title: Presentations
 ---
 
 ## conferences
-1.  Comparing constraint-based causal discovery methods in scenarios typical to psychology. <a href="{{ site.github.repo }}/docs/presentations/nitinIOPS.pdf" target="_blank">(slides)</a><br>
+1.  Comparing constraint-based causal discovery methods in scenarios typical to psychology. 
 **IOPS Winter Conference. 2018.**<br>*Arnhem, The Netherlands.*
 
 2.  Using graphical models to explore relationships between variables underlying community energy initiatives. <a href="{{ site.github.repo }}/docs/presentations/nitinICAPFinal.pdf" target="_blank">(slides)</a><br>

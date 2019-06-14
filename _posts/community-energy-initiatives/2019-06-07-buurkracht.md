@@ -42,5 +42,5 @@ As the figure indicates, one would expect differences in daily energy consumptio
 
 I answer this question using a non-linear general additive mixed model. The final model includes  smart meter data from **4865 households** and is run on a high performance computer cluster.
 
-These models and more can be found at [slimDashboard](https://nbhushan.shinyapps.io/slimDashboard/).
+These models and more can be found at <a href="https://nbhushan.shinyapps.io/slimDashboard/" target="_blank">slimDashboard</a>
 This is an interactive dashboard built using R-shiny which enables users to **load/explore/model/understand** energy consumption of Buurkract members.

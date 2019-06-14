@@ -8,10 +8,12 @@ paginate_path: "page:num"
 # Setup
 title:       Nitin Bhushan
 tagline:     ''
-description: 'Curious about the dynamics involved in a data-driven transition 
-              to a sustainable society, I spend my time connecting the dots 
-              between electrical engineering, machine learning (and statistics), 
-              sustainable energy technology, and psychological science (environmental psychology).'
+description: 'Curious about the dynamics involved
+              in a data-driven energy transition,
+              I spend my time connecting the dots
+              between digitalisation of energy,
+              artificial intelligence and machine learning,
+              and behavioural sciences.'
 url:         "https://nbhushan.github.io"
 baseurl:     ''
 paginate:    5

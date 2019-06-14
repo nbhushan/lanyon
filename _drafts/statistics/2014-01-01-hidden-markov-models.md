@@ -18,8 +18,7 @@ discrete case, we can formalize the Markov property as:
 $$P(z_{n}=j|z_{n-1}=i,z_{n-2}=k,...)= P(z_{n}=j|z_{n-1}=i)
 \label{eq:markovproperty}$$
 
-The transition probability $$P(z_{n}=j|z_{n-1}=i)$$$ is assumed to be
-time-homogeneous i.e the transition probabilities are independent of
+Furthermore, the transition probability $$P(z_{n}=j|z_{n-1}=i)$$$ is assumed to be time-homogeneous i.e the transition probabilities are independent of
 time. This property leads to a set of transition probabilities
 $a_{ij}=P(z_{n}=j|z_{n-1}=i)$$ defined as:
 
@@ -30,8 +29,7 @@ determined by a transition matrix A.
 
 $$a_{ij} = P(z_{n}=j|z_{n-1}=i)~~;~~~~ 1\le i \le K, ~1\le j \le K$$
 
-The rows of A form different probability mass functions over the states.
-A is also called a stochastic matrix and A satisfies the following
+The rows of A form different probability mass functions over the states and each row is governed by a multinomial distribution. The transition matric $A$ is also called a stochastic matrix and A satisfies the following
 constraints:
 
 $$a_{ij}~\ge~0$$
@@ -456,3 +454,5 @@ $$\begin{split}
 P(D=d) &= P(z_{n+1}=k, ... , z_{n+d}=k, z_{n+d+1}\neq k | z_{n}=k)\\
 &= a_{kk}^{(d-1)}.(1-a_{kk}) ~~~~Where~ d~\geq~1
 \end{split}$$
+
+However, in a lot of real world applications, this assumption does not hold.

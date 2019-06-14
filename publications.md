@@ -15,3 +15,13 @@ Nitin Bhushan, Linda Steg, Casper Albers<br>
 *Energy Research & Social Science*. 2018 <br>
 [10.1016/j.erss.2018.07.027](https://doi.org/10.1016/j.erss.2018.07.027)
 
+## under review
+<small>
+1. Causal search methods: Simulation and Application to Environmental Psychology <br>
+Nitin Bhushan, Laura Bringann, Casper Albers<br>
+2019 <br>
+
+## in preparation
+2. Exploring spillover effects using the general additive mixed model<br>
+Nitin Bhushan, Linda Steg, Casper Albers<br>
+2019 <br>

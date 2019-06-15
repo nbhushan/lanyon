@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About me
+order: 3
 ---
 
 I am a phd candidate at the University of Groningen working with Casper Albers & Linda Steg on modelling the energy transition from a psychological perspective. <br>

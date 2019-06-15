@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Buurkracht
-categories: community-energy-initiatives
+categories: energy-transition
 ---
 
 To mitigate the effects of climate change and global warming, households across the world need to reduce their fossil energy consumption. To this end, environmental community energy initiatives, characterized by bottom-up local initiatives; predominantly driven by volunteers have been emerging across many towns in the Netherlands and beyond. Such initiatives  are collective approaches where individuals (or households) form or join a local initiative to pursue a common goal.

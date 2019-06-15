@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hidden markov models
-categories: statistics
+title: Hidden Markov models
+categories: algorithms
 ---
 
 

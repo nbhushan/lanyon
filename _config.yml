@@ -7,7 +7,7 @@ paginate_path: "page:num"
 
 # Setup
 title:       Nitin Bhushan
-tagline:     ''
+tagline:     'energy transition | data science | research'
 description: 'Curious about the dynamics involved
               in a data-driven energy transition,
               I spend my time connecting the dots
@@ -16,7 +16,7 @@ description: 'Curious about the dynamics involved
               and behavioural sciences.'
 url:         "https://nbhushan.github.io"
 baseurl:     ''
-paginate:    5
+paginate:    3
 markdown:    kramdown
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The EM algorithm
-categories: statistics
+categories: algorithms
 ---
 
 The EM algorithm is beautiful.

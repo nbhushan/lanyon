@@ -4,7 +4,7 @@ title: Presentations
 order: 1
 ---
 
-## conferences
+## international conferences
 1.  Comparing constraint-based causal discovery methods in scenarios typical to psychology.
 **5th International Conference on Computational Social Science. July 2019.**<br>*Amsterdam, The Netherlands.*
 

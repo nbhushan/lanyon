@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The EM algorithm
-categories: statistics
+categories: data-science
 ---
 
 The EM algorithm is beautiful.
@@ -14,7 +14,7 @@ understanding the EM algorithm.
 
 ### Random Variables
 
-A random variable is a variable which can take on a specific value in a discrete case or a range of values in the continuous case. The likelihood of the variable taking on a particular value (or a range) is governed by a probability distribution (e.g., a Gaussian).
+A random variable is a variable which can take on a specific value in a discrete case or a range of values in the continuous case. The likelihod of the variable taking on a particular value (or a range) is governed by a probability distribution (e.g., a Gaussian).
 
 I use the following simplified notation while defining the likelihood of a random variable *Z* taking on a value *z*:
 

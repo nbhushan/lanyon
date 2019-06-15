@@ -18,9 +18,9 @@ discrete case, we can formalize the Markov property as:
 $$P(z_{n}=j|z_{n-1}=i,z_{n-2}=k,...)= P(z_{n}=j|z_{n-1}=i)
 \label{eq:markovproperty}$$
 
-Furthermore, the transition probability $$P(z_{n}=j|z_{n-1}=i)$$$ is assumed to be time-homogeneous i.e the transition probabilities are independent of
+Furthermore, the transition probability $$P(z_{n}=j|z_{n-1}=i)$$ is assumed to be time-homogeneous i.e the transition probabilities are independent of
 time. This property leads to a set of transition probabilities
-$a_{ij}=P(z_{n}=j|z_{n-1}=i)$$ defined as:
+$$a_{ij}=P(z_{n}=j|z_{n-1}=i)$$ defined as:
 
 $$a_{ij}(n) = a_{ij} ~~\forall n$$
 
@@ -51,59 +51,39 @@ a_{ij}(n+\tau) &= \frac{P(z_{n+\tau}=i, z_{n+\tau-1}=j)}{P(z_{n+\tau-1}=j)}\\
 a_{ij}(n) &= a_{ij}(n+\tau)
 \end{split}$$
 
-Hidden Markov Models {#hidden-markov-models}
 --------------------
+### Hidden Markov Models {#hidden-markov-models}
 
-In the previous section, the topic of Markov models was considered,
+
+In the previous section, we looked at Markov chains,
 where each state corresponded to an observable event. When the
 observation becomes a probabilistic function of the state, the resulting
 model becomes a doubly embedded stochastic process. The underlying
 stochastic state sequence is now hidden, but can be inferred through
 another set of observable stochastic process (sequence of
-observations)as shown in Figure  [fig:standardHMM].
+observations).
 
-[-\>,\>=stealth’,shorten \>=1.5pt,auto,node distance=2.0cm, semithick]
+#### Parameter set of an Hidden Markov Model
 
-​(A) <span>$z_0$</span>; (B) [right of=A] <span>$z_1$</span>; (C) [right
-of=B] <span>$z_2$</span>; (qdots) [right of =C] <span>$\cdots$</span>;
-(D) [right of=qdots] <span>$z_N$</span>;
-=[fill=blue!10,draw=black,thick,text=black,scale=1] (H) [below of=B]
-<span>$y_1$</span>; (I) [below of=C] <span>$y_2$</span>; (J) [below
-of=D] <span>$y_N$</span>;
+A HMM is a tuple consisting of parameters $$~\pi,~A~and~ B$$.
 
-​(A) edge (B); (B) edge (C); (C) edge (qdots); (qdots) edge (D); (B)
-edge (H); (C) edge (I); (D) edge (J);
-
-[fig:standardHMM]
-
-### Parameter set of an Hidden Markov Model
-
-A HMM is a tuple , where $$\lambda (\pi,A,B)$$ can be formalized using the
-parameters $$~\pi,~A~and~ B$$. We now proceed to describe the elements of
-n HMM.
-
-State transition probability distribution, A
-:   = {}, where
+The transition matrix A describes the dynamics of the system.
+It's elements are given  by
 
     $$a_{ij} = P(z_{t}=j|z_{t-1}=i)~~;~~ 1\le i,j \le K$$
 
-    and having constraints
-
+    with the constraints:
     $$a_{ij}~\ge~0$$
-
     $$\sum_{j=1}^{K}a_{ij}~=~1$$
 
-Initial state distribution,
-:   = {$\pi_{k}$} where
+
+The initial state distribution describes the initial setting of the system.
 
     $$\pi_{k} = P(z_{1}=k)~~,~1\le k \le K$$
 
     $$\sum_{k=1}^{K}\pi_{k}~=~1$$
 
-Observation probability distribution,
-:   Also known an emission model, B is defined as the probability of
-    generating an observation *$$y_{n}$$* from state *$$z_{n}=k$$*. This is
-    a parametrized distribution
+Finally, the Observation probability distribution, also known an emission model, B is defined as the probability of generating an observation *$$y_{n}$$* from state *$$z_{n}=k$$*. This is in most cases a parametrized distribution.
 
     $$B_{k}(y_{n}) = P(y_{n}|z_{n}=k)~~,~~ 1\le k\le K$$
 
@@ -114,23 +94,6 @@ observations (inputs). By sampling from this distribution it is possible
 to generate synthetic data points in the input space. Given the number
 of states K and a HMM $$\lambda=(\pi,A,B)$$ we can use the model as a
 generator to output an observations sequence $$Y_{1:N}$$ of N observations
-where
-
-$$Y_{1:N} = y_{1},y_{2},y_{3},..,y_{N}$$
-
-The model can be used to generate sequences as shown in
-algorithm [alg:hmm~g~enerator].
-
-[t] [alg:hmm~g~enerator]
-
-[1] Initialize; N = Length of one sequence of observations\
-Set, n=1. Choose an initial state $z_{n}$ according the the initial
-state distribution $\pi$\
-Generate an observation $y_{n}$ from state $z_{n}$ based on the emission
-distribution $B_{n}(z_{n})$\
-Transition to a new state $z_{n+1}$ based on the state transition
-distribution for state $z_{n}$ If n $\le $ N, set n=n+1; return to step
-2. Else terminate
 
 The 3 problems solved by a HMM
 ------------------------------

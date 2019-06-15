@@ -5,7 +5,7 @@ order: 3
 ---
 Welcome to my page, glad to have you as a visitor!
 
-I grew up in Bangalore, India. After 21 years of taking the sun for granted, I moved to Maastricht, Netherlands. But, I really missed mountains. Fate intervened and I was offered a chance to move to Grenoble, France. After a year in one of the most beautiful places on Earth, I moved back to India. However, I missed the European way of life and moved back to Eindhoven, Netherlands. Now I live in Groningen and it's a close second for the most beautiful place on Earth! <br> *Er gaat niets boven Groningen*
+I grew up in Bangalore, India. After 21 years of taking the sun for granted, I moved to Maastricht, Netherlands. I initially found it hard to adjust to life abroad. Fate intervened and I was offered a chance to move to Grenoble, France. After a year in one of the most beautiful places on Earth, I moved back to India. However, I missed the European way of life and soon found myself in Eindhoven, Netherlands. Now I live in Groningen and it's a close second for the most beautiful place on Earth! <br> *Er gaat niets boven Groningen*
 
 ## Education
 My undergraduate studies in electrical engineering and power systems (MSRIT, India) gives me a strong foundation in the electricity systems and power grids. To further learn about how to model a future grid which will almost certainly involve an element of randomness (e.g., due to intermittent renewable generation), I pursued a MSc in artificial intelligence (Maastricht University, Netherlands) and specialized in machine learning and statistical modelling and applied these methods to develop smart energy management systems.

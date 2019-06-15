@@ -9,7 +9,7 @@ mathjax: true
   {{ content }}
 </div>
 
- <!--<div class="post-categories">
+<div class="post-categories">
   <h3>filed under </h4>
   {% if post %}
     {% assign categories = post.categories %}
@@ -20,4 +20,4 @@ mathjax: true
   <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
-</div>––>
+</div>

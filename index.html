@@ -2,24 +2,36 @@
 layout: default
 title: Home
 ---
-Welcome to my page. Glad to have you as a visitor.
-------------------
-I am a phd candidate at the University of Groningen working with Casper Albers & Linda Steg on modeling the energy transition from a psychological perspective. <br>
-My research interests are machine learning and statistics, energy transition, and data visualization.
-Currently, I am applying machine learning techniques to explore and understand how households consume energy in the era of decentralised enery systems.
 
-I obtained my master’s degree (MSc) in Artificial Intelligence from the University of Maastricht during which
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+      <!-- <com<a href="{{ site.baseurl }}/{{ post.url }}"> -->
+    </h1>
 
-I spent a summer at Xerox Research Center Europe working on a smart energy management systems with Yves Hoppenot & Jean-marc Andreoli.<br>
-<br>My undergraduate degree is in electrical engineering with an emphasis on distributed energy systems.
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <!-- shoe excerpt -->
+    <!--{{ post.content }}-->
+    {{ post.excerpt | strip_html | truncate: 400 }}
+  </div>
+  {% endfor %}
+</div>
 
-<hr>
-
-In my free time, I enjoy rock-climbing and bouldering in particular.
-In my perspective, the aim of climbing is not just getting to the top, but to appreciate the quality of the movement that takes us there.
-
-<img src="{{ site.github.repo }}/assets/me.jpeg" alt="me at font" style="width:453.3px;height:280px;">
-
-Apart from climbing, I enjoy cooking **not--too-spicy** indian food and mediterranean recipies.
-I am not fussy about music or movies, but I do strongly support independent radios such as Radio Paradise.
-<img src="{{ site.github.repo }}/assets/rp.png" alt="rpg" style="width:100px;height:100px;">
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>

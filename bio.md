@@ -24,4 +24,4 @@ In my perspective, the aim of climbing is not just getting to the top, but to ap
 
 Apart from climbing, I enjoy cooking **not--too-spicy** indian food and mediterranean recipes.
 
-Mu Dutch skills are improving and I like to watch [tegenlicht](https://www.vpro.nl/programmas/tegenlicht.html). Further, I am not fussy about music or movies, but I do strongly support independent radios such as Radio Paradise. <img src="{{ site.github.repo }}/assets/rp.png" alt="rpg" style="width:100px;height:100px;">
+Mu Dutch skills are improving and I like to watch <a href="https://www.vpro.nl/programmas/tegenlicht.html" target="_blank">tegenlicht</a>. Further, I am not fussy about music or movies, but I do strongly support independent radios such as Radio Paradise. <img src="{{ site.github.repo }}/assets/rp.png" alt="rpg" style="width:100px;height:100px;">

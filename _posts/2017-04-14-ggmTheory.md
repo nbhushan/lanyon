@@ -1,0 +1,18 @@
+---
+layout: post
+title: The Gaussian graphical model - a primer
+categories: algorithms
+---
+A Gaussian graphical model comprises of a set of items or variables, depicted by circles, and a set of lines that visualise relationships between the items or variables. The thickness of these lines represents the strength of the relationships between items or variables; and consequently, the absence of a line implies no or very weak relationships between the relevant items or variables. Notably, in the Gaussian graphical model, these lines capture partial correlations, that is, the correlation between two items or variables when controlling for all other items or variables included in the data set.
+
+* * *
+
+## A note on estimating these models
+Estimating a GGM from data reduces to estimating the zeroes in the precision matrix. This can be performed using maximum likelihood and the optimal solution is a numerical inverse of the sample variance covariance matrix. Finally, null hypothesis significance testing using the Fisher transformation can be used to test if a sample partial correlation implies a true zero in the population. However, in high dimensional settings, where the number of nodes is much greater than the sample size, numerical inversion becomes a computationally infeasible procedure. However, assuming sparsity in the true precision matrix can aid estimation of the GGM in high dimensional settings. However, inducing sparsity must be done in a principled manner as we wish to retain true edges while removing spurious connections.
+
+One way of inducing sparsity in a GGM is by arbitrary choosing a threshold $$\theta$$, such that entries in the GGM which are below $$\theta$$ are set to zero. There is a risk however that this rather arbitrary threshold may set some small but practically meaningful partial correlations to zero. Also a threshold $$\theta = 0.1$$ would affect an edge with weight $$0.0999$$ but not an edge with a weight $$0.1001$$. On the other hand, a threshold criterion has the advantage that it is easy to interpret why certain edges are set to zero as (ideally) the threshold is based on theory or a desired level of explained variance that a variable should have to be meaningful in the appropriate context.
+
+![glasso]({{ site.github.repo }}/assets/glasso.png){: .center-image }
+
+
+A principled alternative to thresholding is the *glasso* algorithm. This method is a form of penalized maximum likelihood estimation and forces small non- zero entries to zero. Consequently, this results in a sparse representation irrespective of the underlying true model}. Further, the glasso estimator aims to minimize false positives, ensuring that true edges are not removed from the graph. Researchers set a tuning parameter $$\lambda$$ which controls the severity of the penalty. Consequently, the choice of $$\lambda$$ severely influences the resulting graph. Moreover, a high tuning parameter results in a sparser GGM even if the underlying reality is not sparse. To find an optimum balance between description and parsimony, information theoretic criteria such as the extended Bayesian information criterion (EBIC) are commonly used to choose a graph that is a good approximation of the underlying reality (see Figure above). In addition, the EBIC is dependent on a hyperparameter $$\gamma$$ that has to be set by the researcher. A lower $$\gamma$$ (e.g., 0.2) favours a less sparse model and hence more spurious edges that are not present in the population are also estimated. A higher $$\gamma$$ (e.g., 0.9) on the other hand results in a more sparse graph with less spurious edges but edges that are present in the population might also be discarded.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why do people join local energy initiatives?
-categories: energy-transition psychology data-science
+categories: projects
 ---
 ---
 
@@ -10,7 +10,7 @@ categories: energy-transition psychology data-science
  Role   | Internal consultant, researcher, data scientist
  Data | Survey data from 386 households (members & non-members)
  Tools | R, causal search methods
- Deliverables |  Code & report ([link](https://doi.org/10.3389/fpsyg.2019.01050))
+ Deliverables |  Code & report
 
 ---
 

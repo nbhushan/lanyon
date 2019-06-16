@@ -93,7 +93,7 @@ title: Home
     </div>
   </div>
   <div class="entry">
-    <div class="title big">sep 2012</div>
+    <div class="title big">sep 2011</div>
     <div class="body">
       <p>started MSc. in Artificial intelligence</p>
     </div>

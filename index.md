@@ -17,13 +17,13 @@ title: Home
   <div class="entry">
     <div class="title">dec 2018</div>
     <div class="body">
-      <p>teacher statistical modeling & inference.</p>
+      <p>Teacher: Statistical modeling & inference.</p>
     </div>
   </div>
   <div class="entry">
     <div class="title">june 2018</div>
     <div class="body">
-      <p>Speaker at the International Conference of Applied Psychology, Montreal, Canada.</p>
+      <p>Speaker: International Conference of Applied Psychology, Montreal, Canada.</p>
     </div>
   </div>
   <div class="entry">
@@ -35,7 +35,7 @@ title: Home
   <div class="entry">
     <div class="title">aug 2017</div>
     <div class="body">
-      <p>Speaker at the European Conference on Behaviour and Energy Efficiency, Coimbra, Portugal.</p>
+      <p>Speaker: European Conference on Behaviour and Energy Efficiency, Coimbra, Portugal.</p>
     </div>
   </div>
   <div class="entry">
@@ -59,7 +59,7 @@ title: Home
   <div class="entry">
     <div class="title">jan 2014</div>
     <div class="body">
-      <p>Smart energy systems: consultant trainee</p>
+      <p>Trainee: Smart energy systems consultant</p>
     </div>
   </div>
   <div class="entry">
@@ -77,7 +77,7 @@ title: Home
   <div class="entry">
     <div class="title"> july 2013</div>
     <div class="body">
-      <p>developed production ready energy management system using Python and Hidden Markov Models</p>
+      <p>developed a production ready energy management system using Python and Hidden Markov Models</p>
     </div>
   </div>
   <div class="entry">
@@ -125,7 +125,7 @@ title: Home
   <div class="entry">
     <div class="title big">2003</div>
     <div class="body">
-      <p>founded "clean green civic club"</p>
+      <p>founder: "clean green civic club"</p>
     </div>
   </div>
   <div class="entry">

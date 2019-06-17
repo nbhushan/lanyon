@@ -10,9 +10,9 @@ I grew up in Bangalore, India. After 21 years of taking the sun for granted, I m
 ## Education
 My undergraduate studies in electrical engineering and power systems (MSRIT, India) gives me a strong foundation in the electricity systems and power grids. To further learn about how to model a future grid which will almost certainly involve an element of randomness (e.g., due to intermittent renewable generation), I pursued a MSc in artificial intelligence (Maastricht University, Netherlands) and specialized in machine learning and statistical modelling. I applied these methods to develop smart energy management systems.
 
-After years of wearing a technical hat, I chose to switch and try on the hat of a data scientist, but staying loyal to my roots in the energy transition. I was fortunate to be offered a PhD position in statistics in which I developed models to explore the human dimension of the energy transition under the supervision of Casper Albers & Linda Steg.
+After years of wearing a technical hat, I chose to switch and try on the hat of a data scientist, but staying loyal to my roots in the energy transition. I was fortunate to be offered a PhD position in statistics during which I developed models to explore the human dimension of the energy transition under the supervision of Casper Albers & Linda Steg.
 
-During my PhD, I closely collaborated with the industry. In particular, I developed solutions to questions posed by Buurkracht, a community-driven intervention aimed to promote energy efficiency amongst its partakers.
+In addition to research, I closely collaborated with the industry. In particular, I developed solutions to questions posed by Buurkracht, a community-driven intervention aimed to promote energy efficiency amongst its partakers.
 
 The experience I gained working and studying with multiple disciplines has taught me more than I would have ever gained following a traditional path.
 

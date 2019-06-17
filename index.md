@@ -11,13 +11,13 @@ title: Home
   <div class="entry">
     <div class="title big">sep 2019</div>
     <div class="body">
-      <p>expected PhD graduation</p>
+      <p>expecting PhD graduation</p>
     </div>
   </div>
   <div class="entry">
     <div class="title">dec 2018</div>
     <div class="body">
-      <p>taught statistical modeling & inference.</p>
+      <p>teacher statistical modeling & inference.</p>
     </div>
   </div>
   <div class="entry">

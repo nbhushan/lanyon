@@ -320,6 +320,13 @@ tbody tr:nth-child(odd) th {
   letter-spacing: 0;
 }
 
+.masthead img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding-left: 20px;
+}
+
 
 /*
  * Posts and pages

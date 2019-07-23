@@ -5,7 +5,7 @@ order: 1
 ---
 
 ## international conferences
-1.  Comparing constraint-based causal discovery methods in scenarios typical to psychology.
+1.  Comparing constraint-based causal discovery methods in scenarios typical to psychology. <a href="{{ site.github.repo }}/docs/presentations/nitinIC2S2.pdf" target="_blank">(slides)</a><br>
 **5th International Conference on Computational Social Science. July 2019.**<br>*Amsterdam, The Netherlands.*
 
 2.  Using graphical models to explore relationships between variables underlying community energy initiatives. <a href="{{ site.github.repo }}/docs/presentations/nitinICAPFinal.pdf" target="_blank">(slides)</a><br>

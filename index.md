@@ -15,6 +15,12 @@ title: Home
     </div>
   </div>
   <div class="entry">
+    <div class="title">july 2019</div>
+    <div class="body">
+      <p>Speaker: International conference of Computational Social Science, Amsterdam.</p>
+    </div>
+  </div>
+  <div class="entry">
     <div class="title">dec 2018</div>
     <div class="body">
       <p>Teacher: Statistical modelling & inference.</p>

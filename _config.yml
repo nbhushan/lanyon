@@ -7,12 +7,14 @@ paginate_path: "blogs/page:num/"
 
 # Setup
 title:       Nitin Bhushan
-tagline:     'energy transition | data science | research'
+tagline:     'data science | consultant | energy transition'
 description: 'Curious about the dynamics involved
-              in a data-driven energy transition,
+              in a data-driven perspective
+              to solve practical problems,
               I spend my time connecting the dots
-              between digitalisation of energy,
-              artificial intelligence and machine learning,
+              between digitalisation of industries,
+              artificial intelligence,
+              statistics and machine learning,
               and behavioural sciences.'
 url:         "https://nbhushan.github.io"
 baseurl:     ''

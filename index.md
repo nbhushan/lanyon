@@ -11,7 +11,7 @@ title: Home
   <div class="entry">
     <div class="title big">June 2020</div>
     <div class="body">
-      <p>PhD</p>
+      <p>Corona-proof PhD ceremony</p>
     </div>
   </div>
   <div class="entry">

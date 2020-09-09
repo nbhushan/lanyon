@@ -9,9 +9,9 @@ title: Home
 </head>
 <div class="entries">
   <div class="entry">
-    <div class="title big">sep 2019</div>
+    <div class="title big">June 2020</div>
     <div class="body">
-      <p>expecting PhD graduation</p>
+      <p>PhD</p>
     </div>
   </div>
   <div class="entry">
